@@ -1,7 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+
 *{
     padding: 0;
     margin: 0;
 }
+
+
 
 
 .container{
@@ -15,6 +21,7 @@
 .card {
     padding: 50px;
     background-color: rgb(255, 255, 255);
+    font-family: Inter;
 }
 
 /* Aligns element in a horizontal manner*/
@@ -83,4 +90,6 @@ button:hover{
     padding: 20px;
     flex-wrap: wrap;
 }
+
+ 
 
