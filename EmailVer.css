@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.container{
+    padding: 40px;
+    background-color: rgb(245, 245, 243);
+    height: auto;
+
+
+}
+
+.card {
+    padding: 50px;
+    background-color: rgb(255, 255, 255);
+}
+
+.code{
+    padding: 10px;
+    background-color: rgb(245, 245, 243);
+    display: flex;
+    justify-content: center;
+}
+
+
+/* Aligns element in a horizontal manner*/
+.logo { 
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+
+
+.content-text{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.content1{
+    margin-top: 4px;
+}
+
+button {
+    border-radius: 50px;
+    background-color: rgb(253, 201, 40);
+    padding: 12px;
+    width: 100%;
+    margin-top: 45px;
+    /* margin: 30px; */
+    border: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+
+button:hover{
+    background-color: rgb(250, 189, 4);
+}
+
+
+
+.info {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(220, 220, 218);
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    /* padding-top: 12px; */
+}
+
+.info1{
+    margin-top: auto; 
+}
+
+.website{
+    width: 15%
+}
+
+ 
+.social-icons {
+    display: flex;
+    justify-content: space-evenly;
+    gap:'10px';
+    border-radius: 3rem;
+    padding: 20px;
+    flex-wrap: wrap;
+}

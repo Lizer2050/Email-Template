@@ -1,0 +1,194 @@
+MENU INFO 
+
+HTML CODE
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu info</title>
+    <link rel="stylesheet" href="MenuEmail.css">
+</head>
+
+
+<!-- BODY -->
+<body>
+    <!-- Container contains all the features of the everything in the webpage -->
+    <div class="container">
+
+        <!-- LOGO: The class logo in css defines all the features of the logo  -->
+        <div class="logo"> 
+            <img src="kook logo.jpg" alt="Logo for the resturant" width="150">
+        </div>
+
+        <!-- Card contains the features of all the elements in the white space -->
+        <div class="card">
+                <h1 class="content-text">
+                    Menu for the upcoming week is now available!
+                </h1>
+
+                <p class="content-text">
+                    Hi Jane,
+                </p>
+
+                <p class="content-text">
+                    We've published the menu for the upcoming week Mon 01 Dec 2023 to Fri 04 Dec 2023.
+                </p>
+
+                <p class="content-text">
+                    As usual, we've added a lot of variety to suit your lunch needs. You can start placing your orders.
+                </p>
+
+                <!-- 1st BUTTON FOR VIEW THE MENU -->
+                    <button>
+                        View the Menu
+                    </button>
+               
+                <p class="content-text">
+                    Thanks,
+                </p>
+
+                <p class="content-text content1">
+                    The Kook Team
+                </p>
+            
+        </div>
+
+
+
+        <!-- INFO -->
+        <!-- Outside the white space but still in the container class -->
+        <div class="info">
+            Have any question? Send an email to support@hellokook.com.
+        </div>
+
+        <div class="info info1">
+            The support team will reach out as soon as possible.
+        </div>
+
+        <!-- 2nd BUTTON -->
+        <div style="display: flex; justify-content:center;">
+            <button class="website">
+                Visit Platter website
+            </button>
+        </div>
+
+        <!-- Social Media Icons -->
+        <div style="display: flex; justify-content: center; margin-top: 3rem">
+            <div style="width:20%">
+                <div class="social-icons">
+                    <div>
+                        <img src="twitter logo.jpg" alt="twitter" width="50" border-radius="50%">
+                    </div>
+    
+                    <div>
+                        <img src="instgram logo.jpg" alt="Instagram" width="50">
+                    </div>
+    
+                    <div> <img src="linkedin logo.jpg" alt="linkedlin" width="50">
+                    </div>
+    
+    
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+</body>
+
+</html>
+
+
+
+
+
+CSS CODE
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.container{
+    padding: 40px;
+    background-color: rgb(245, 245, 243);
+    height: auto;
+
+
+}
+
+.card {
+    padding: 50px;
+    background-color: rgb(255, 255, 255);
+}
+
+/* Aligns element in a horizontal manner*/
+.logo { 
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+
+
+.content-text{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.content1{
+    margin-top: 4px;
+}
+
+button {
+    border-radius: 50px;
+    background-color: rgb(253, 201, 40);
+    padding: 12px;
+    width: 100%;
+    margin-top: 45px;
+    /* margin: 30px; */
+    border: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+
+button:hover{
+    background-color: rgb(250, 189, 4);
+}
+
+
+
+.info {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(220, 220, 218);
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    /* padding-top: 12px; */
+}
+
+.info1{
+    margin-top: auto; 
+}
+
+.website{
+    width: 15%
+}
+
+ 
+ .social-icons {
+    display: flex;
+    justify-content: space-evenly;
+    gap:'10px';
+    border-radius: 3rem;
+    padding: 20px;
+}
+
